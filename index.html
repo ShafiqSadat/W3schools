@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="assests/JS/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="assests/CSS/style.css">
+    <link rel="stylesheet" href="assests/CSS/font-awesome.css">
+    <script src="assests/JS/script.js"></script>
+</head>
+<body>
+<header>
+    <span id="header_text">
+        <a href="#">w3schools<span style="color: #007D00">.com</span></a>
+    </span>
+    <p>THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+    <button class="loadLogIn">LOG IN</button>
+    <div id="header_selects">
+        <ul id="itemsUL">
+            <li class="tutDropDown">Tutorials <span class="fa fa-caret-down"></span></li>
+            <li class="RefDropDown">References <span class="fa fa-caret-down"></span></li>
+            <li class="ExamDropDown">Examples <span class="fa fa-caret-down"></span></li>
+            <li class="ExerDropDown">Exercises <span class="fa fa-caret-down"></span></li>
+            <li>Certification <span class=""></span></li>
+        </ul>
+        <ul id="itemsIcon">
+            <li class="btnSearch"><span class="fa fa-search"></span></li>
+            <li><span class="fa fa-language"></span></li>
+            <li class="btnChangeColor"><span class="fa fa-columns"></span></li>
+        </ul>
+        <div class="searchBar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+</header>
+<div class="mainContent">
+    <div class="fistContainer">
+    <div class="right right1" style="padding: 3%;">
+        <h1>HTML</h1>
+        <p>The language for building web pages</p>
+        <div class="links">
+            <a href="#">Learn HTML</a>
+            <a href="#">HTML REFERENCE</a>
+        </div>
+    </div>
+    <div class="left" style="padding: 3%">
+        <h3>HTML Example:</h3>
+        <div class="codeHTML">
+            <div class="codes">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>title<span class="tagcolor" style="color:mediumblue">&gt;</span></span>HTML Tutorial<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/title<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+            </div>
+        </div>
+        <div class="tryClass"><a href="#" class="tryIt">Try it Yourself »</a></div>
+    </div>
+    </div>
+    <div class="container3">
+        <div class="right right1" style="padding: 3%;">
+            <h1>JavaScript</h1>
+            <p>The language for programming web pages</p>
+            <div class="links">
+                <a href="#">Learn JavaScript</a>
+                <a href="#">JavaScript REFERENCE</a>
+            </div>
+        </div>
+        <div class="left" style="padding: 3%">
+            <h3>JavaScript Example:</h3>
+            <div class="codeHTML codesJS">
+                <div class="codes codesJS">
+                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>button<span class="attributecolor" style="color:red"> onclick<span class="attributevaluecolor" style="color:mediumblue">="myFunction()"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>Click Me!<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp; <span class="jskeywordcolor" style="color:mediumblue">var</span> x = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"demo"</span>);<br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span class="jspropertycolor" style="color:black">fontSize</span> = <span class="jsstringcolor" style="color:brown">"25px"</span>; <br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span class="jspropertycolor" style="color:black">color</span> = <span class="jsstringcolor" style="color:brown">"red"</span>; <br>}<br>
+                    </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+            </div>
+            <div class="tryClass"><a href="#" class="tryIt">Try it Yourself »</a></div>
+        </div>
+    </div>
+    <br>
+</div>
+<div class="secondContainer" >
+    <div class="rightCode" style="padding: 3%">
+        <h3>CSS Example:</h3>
+        <div class="rightHTMLCode">
+            <span class="cssselectorcolor" style="color:brown">
+            body <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+            &nbsp; background-color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> lightblue<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>
+            h1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+            &nbsp; color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> white<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+            &nbsp; text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>
+            p <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+            &nbsp; font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+            &nbsp; font-size<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span>
+            </span>
+        </div>
+        <div class="tryClass"><a href="#" class="tryIt" style="z-index: 1">Try it Yourself »</a></div>
+    </div>
+    <div class="right right2" style="padding: 3%;">
+        <h1>CSS</h1>
+        <p>The language for styling web pages</p>
+        <div class="links">
+            <a href="#">Learn CSS</a>
+            <a href="#">CSS REFERENCE</a>
+        </div>
+    </div>
+</div>
+<div class="secondContainer container4" >
+    <div class="rightCode rightcon3" style="padding: 3%">
+        <h3>SQL Example:</h3>
+        <div class="rightHTMLCode con3HTML" style="font-size: 20px">
+            <span style="color:mediumblue">SELECT</span> * <span class="sqlkeywordcolor" style="color:mediumblue">FROM</span> Customers
+            <span style="color:mediumblue">WHERE</span> Country=<span class="sqlstringcolor" style="color:brown">'Mexico'</span>;<span class="sqlnumbercolor"></span>
+        </div>
+        <div class="tryClass"><a href="#" class="tryIt" style="z-index: 1">Try it Yourself »</a></div>
+    </div>
+    <div class="right right2" style="padding: 3%;">
+        <h1>SQL</h1>
+        <p>A language for accessing databases</p>
+        <div class="links">
+            <a href="#">Learn SQL</a>
+            <a href="#">SQL REFERENCE</a>
+        </div>
+    </div>
+</div>
+<div class="boxContainer">
+<div class="grid-container">
+    <div>
+        <h1>Python</h1>
+        <p>A programming language</p>
+        <a href="#">LEARN PYTHON</a>
+    </div>
+    <div>
+        <h1>PHP</h1>
+        <p>A web server programming language</p>
+        <a href="#">LEARN PHP</a>
+    </div>
+    <div>
+        <h1>jQuery</h1>
+        <p>A JavaScript library for developing web pages</p>
+        <a href="#">LEARN JQUERY</a>
+    </div>
+    <div>
+        <h1>Java</h1>
+        <p>A programming language</p>
+        <a href="#">LEARN JAVA</a>
+    </div>
+</div>
+</div>
+<div class="container5">
+<div class="box1">
+    <h2>W3.CSS</h2>
+    <h4>A modern CSS framework for faster and better responsive web pages</h4>
+    <a href="#">LEARN W3.CSS</a>
+</div>
+<div class="box2">
+    <h2>Color Picker</h2>
+    <a href="#"><img src="assests/images/colorpicker.png" alt="ColorPicker"></a>
+</div>
+<div class="box3">
+    <h2>Bootstrap</h2>
+    <h4>A CSS framework for designing better web pages</h4>
+    <a href="#">LEARN Bootstrap 3</a>
+    <br>
+    <a href="#">LEARN Bootstrap 4</a>
+</div>
+</div>
+<div class="container6 boxContainer">
+    <h3>Exercises</h3>
+    <h5>Test yourself with exercises</h5>
+    <div class="con6grid">
+        <div class="item1"><a href="">HTML Exercises</a></div>
+        <div class="item2"><a href="">CSS Exercises</a></div>
+        <div class="item3"><a href="">JavaScript Exercises</a></div>
+        <div class="item4"><a href="">SQL</a></div>
+        <div class="item5"><a href="">Python</a></div>
+        <div class="item6"><a href="">PHP</a></div>
+        <div class="item7"><a href="">jQuery</a></div>
+        <div class="item8"><a href="">Java</a></div>
+        <div class="item9"><a href="">C++</a></div>
+        <div class="item10"><a href="">C#</a></div>
+    </div>
+</div>
+<div class="container7 secondContainer">
+    <h3>Web Templates</h3>
+    <p>Browse our selection of <b>free</b> responsive HTML Templates</p>
+    <a href="#">
+    <img src="assests/images/w3css_templates.jpg" alt="">
+    </a>
+    <br>
+    <a href="#" class="con7link">BROWSE TEMPLATES</a>
+</div>
+<div class="container8 container5">
+    <h3>How To Section</h3>
+    <p>Code snippets for HTML, CSS and JavaScript</p>
+    <a href="#" class="con7link">LEARN HOW TO</a>
+</div>
+<div class="container9 boxContainer">
+    <a href="#">
+        <div style="background-color: rgba(0, 0, 0, 0.6); height: 150px; width: 1000px; position: absolute" class="con9Elements">
+            <h3>Web Certificates</h3>
+            <p>Get Certified in HTML, CSS, and JavaScript</p>
+        </div>
+        <button class="btncon9" style="position: absolute">Get Certified »</button>
+        <img src="assests/images/getcertified.jpg" alt="">
+    </a>
+</div>
+<div class="login">
+    <button class="btnClose fa fa-close" style="font-size: 20px"></button>
+    <div class="loginContent">
+        <form action="index.php">
+        <h3>LOG IN</h3>
+        <a href="#" id="whylogin">Why Log in?</a>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Enter your e-mail address">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter Your Password">
+        <br>
+        <button class="btnLogin" type="submit">LOG IN</button>
+        <br>
+        <span>New User? <a href="#">Sign Up For Free!</a></span>
+        <br>
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+</div>
+<div class="dropDownTut dorpdownMenus" id="hideTut">
+<button class="btnClose fa fa-close" style="font-size: 20px"></button>
+    <div class="itemts">
+        <h3 class="sidehead">HTML and CSS</h3>
+    <ul>
+        <li><a href="#">Learn HTML</a></li>
+        <li><a href="#">Learn CSS</a></li>
+        <li><a href="#">Learn Bootstrap</a></li>
+        <li><a href="#">Learn W3.CSS</a></li>
+        <li><a href="#">Learn Colors</a></li>
+        <li><a href="#">Learn Icons</a></li>
+        <li><a href="#">Learn Graphics</a></li>
+        <li><a href="#">Learn How To</a></li>
+        <li><a href="#">Learn Sass</a></li>
+    </ul>
+    </div>
+    <div class="itemts">
+    <h3 class="sidehead">JavaScript</h3>
+    <ul>
+        <li><a href="#">Learn JavaScript</a></li>
+        <li><a href="#">Learn jQuery</a></li>
+        <li><a href="#">Learn React</a></li>
+        <li><a href="#">Learn AngularJS</a></li>
+        <li><a href="#">Learn JSON</a></li>
+        <li><a href="#">Learn AJAX</a></li>
+        <li><a href="#">Learn AppML</a></li>
+        <li><a href="#">Learn W3.JS</a></li>
+    </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">XML Tutorials</h3>
+        <ul>
+            <li><a href="#">Learn XML</a></li>
+            <li><a href="#">Learn XML AJAX</a></li>
+            <li><a href="#">Learn XML DOM</a></li>
+            <li><a href="#">Learn XML DTD</a></li>
+            <li><a href="#">Learn XML Schema</a></li>
+            <li><a href="#">Learn XSLT</a></li>
+            <li><a href="#">Learn XPath</a></li>
+            <li><a href="#">Learn XQuery</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+    <h3 class="sidehead">Server Side</h3>
+    <ul>
+        <li><a href="#">Learn SQL</a></li>
+        <li><a href="#">Learn PHP</a></li>
+        <li><a href="#">Learn ASP</a></li>
+        <li><a href="#">Learn Node.js</a></li>
+        <li><a href="#">Learn Raspberry Pi</a></li>
+    </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Web Building</h3>
+        <ul>
+            <li><a href="#">Web Templates</a></li>
+            <li><a href="#">Web Statistics</a></li>
+            <li><a href="#">Web Certificates</a></li>
+            <li><a href="#">Web Editor</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Test Your Typing Speed</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+    <h3 class="sidehead">Programming</h3>
+    <ul>
+        <li><a href="#">Learn Python</a></li>
+        <li><a href="#">Learn Java</a></li>
+        <li><a href="#">Learn C++</a></li>
+        <li><a href="#">Learn C#</a></li>
+        <li><a href="#">Learn Machine Learning</a></li>
+    </ul>
+    </div>
+</div>
+<div class="dropDownRef dorpdownMenus" id="hideRef">
+    <button class="btnClose fa fa-close" style="font-size: 20px"></button>
+    <div class="itemts">
+        <h3 class="sidehead">Reference HTML and CSS</h3>
+        <ul>
+            <li><a href="#">Reference HTML</a></li>
+            <li><a href="#">Reference CSS</a></li>
+            <li><a href="#">Reference Bootstrap</a></li>
+            <li><a href="#">Reference W3.CSS</a></li>
+            <li><a href="#">Reference Colors</a></li>
+            <li><a href="#">Reference Icons</a></li>
+            <li><a href="#">Reference Graphics</a></li>
+            <li><a href="#">Reference How To</a></li>
+            <li><a href="#">Reference Sass</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Reference JavaScript</h3>
+        <ul>
+            <li><a href="#">Reference JavaScript</a></li>
+            <li><a href="#">Reference jQuery</a></li>
+            <li><a href="#">Reference React</a></li>
+            <li><a href="#">Reference AngularJS</a></li>
+            <li><a href="#">Reference JSON</a></li>
+            <li><a href="#">Reference AJAX</a></li>
+            <li><a href="#">Reference AppML</a></li>
+            <li><a href="#">Reference W3.JS</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Reference XML Tutorials</h3>
+        <ul>
+            <li><a href="#">Reference XML</a></li>
+            <li><a href="#">Reference XML AJAX</a></li>
+            <li><a href="#">Reference XML DOM</a></li>
+            <li><a href="#">Reference XML DTD</a></li>
+            <li><a href="#">Reference XML Schema</a></li>
+            <li><a href="#">Reference XSLT</a></li>
+            <li><a href="#">Reference XPath</a></li>
+            <li><a href="#">Reference XQuery</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Reference Server Side</h3>
+        <ul>
+            <li><a href="#">Reference SQL</a></li>
+            <li><a href="#">Reference PHP</a></li>
+            <li><a href="#">Reference ASP</a></li>
+            <li><a href="#">Reference Node.js</a></li>
+            <li><a href="#">Reference Raspberry Pi</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Reference Web Building</h3>
+        <ul>
+            <li><a href="#">Reference Templates</a></li>
+            <li><a href="#">Reference Statistics</a></li>
+            <li><a href="#">Reference Certificates</a></li>
+            <li><a href="#">Reference Editor</a></li>
+            <li><a href="#">Reference Development</a></li>
+            <li><a href="#">Reference Your Typing Speed</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Reference Programming</h3>
+        <ul>
+            <li><a href="#">Reference Python</a></li>
+            <li><a href="#">Reference Java</a></li>
+            <li><a href="#">Reference C++</a></li>
+            <li><a href="#">Reference C#</a></li>
+            <li><a href="#">Reference Machine Learning</a></li>
+        </ul>
+    </div>
+</div>
+<div class="dropDownExam dorpdownMenus" id="hideExam">
+    <button class="btnClose fa fa-close" style="font-size: 20px"></button>
+    <div class="itemts">
+        <h3 class="sidehead">HTML and CSS</h3>
+        <ul>
+            <li><a href="#">HTML Examples</a></li>
+            <li><a href="#">CSS Examples</a></li>
+            <li><a href="#">Bootstrap Examples</a></li>
+            <li><a href="#">W3.CSS Examples</a></li>
+            <li><a href="#">Colors Examples</a></li>
+            <li><a href="#">Icons Examples</a></li>
+            <li><a href="#">Graphics Examples</a></li>
+            <li><a href="#">Sass Examples</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">JavaScript</h3>
+        <ul>
+            <li><a href="#">Examples JavaScript</a></li>
+            <li><a href="#">Examples jQuery</a></li>
+            <li><a href="#">Examples React</a></li>
+            <li><a href="#">Examples AngularJS</a></li>
+            <li><a href="#">Examples JSON</a></li>
+            <li><a href="#">Examples AJAX</a></li>
+            <li><a href="#">Examples AppML</a></li>
+            <li><a href="#">Examples W3.JS</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">XML Tutorials</h3>
+        <ul>
+            <li><a href="#">Examples XML</a></li>
+            <li><a href="#">Examples XML AJAX</a></li>
+            <li><a href="#">Examples XML DOM</a></li>
+            <li><a href="#">Examples XML DTD</a></li>
+            <li><a href="#">Examples XML Schema</a></li>
+            <li><a href="#">Examples XSLT</a></li>
+            <li><a href="#">Examples XPath</a></li>
+            <li><a href="#">Examples XQuery</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Server Side</h3>
+        <ul>
+            <li><a href="#">Examples SQL</a></li>
+            <li><a href="#">Examples PHP</a></li>
+            <li><a href="#">Examples ASP</a></li>
+            <li><a href="#">Examples Node.js</a></li>
+            <li><a href="#">Examples Raspberry Pi</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Web Building</h3>
+        <ul>
+            <li><a href="#">Examples Web Templates</a></li>
+            <li><a href="#">Examples Web Statistics</a></li>
+            <li><a href="#">Examples Web Certificates</a></li>
+            <li><a href="#">Examples Web Editor</a></li>
+            <li><a href="#">Examples Web Development</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Programming</h3>
+        <ul>
+            <li><a href="#">Examples Learn Python</a></li>
+            <li><a href="#">Examples Learn Java</a></li>
+            <li><a href="#">Examples Learn C++</a></li>
+            <li><a href="#">Examples Learn C#</a></li>
+            <li><a href="#">Examples Learn Machine Learning</a></li>
+        </ul>
+    </div>
+</div>
+<div class="dropDownExer dorpdownMenus" id="hideExer">
+    <button class="btnClose fa fa-close" style="font-size: 20px"></button>
+    <div class="itemts">
+        <h3 class="sidehead">Exercises</h3>
+        <ul>
+            <li><a href="#">HTML Exercises</a></li>
+            <li><a href="#">CSS Exercises</a></li>
+            <li><a href="#">Bootstrap Exercises</a></li>
+            <li><a href="#">W3.CSS Exercises</a></li>
+            <li><a href="#">Colors Exercises</a></li>
+            <li><a href="#">Icons Exercises</a></li>
+            <li><a href="#">Graphics Exercises</a></li>
+            <li><a href="#">Python Exercises</a></li>
+            <li><a href="#">Sass Exercises</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Quizzes</h3>
+        <ul>
+            <li><a href="#">JavaScript Quizzes</a></li>
+            <li><a href="#">jQuery Quizzes</a></li>
+            <li><a href="#">React Quizzes</a></li>
+            <li><a href="#">AngularJS Quizzes</a></li>
+            <li><a href="#">JSON Quizzes</a></li>
+            <li><a href="#">AJAX Quizzes</a></li>
+            <li><a href="#">AppML Quizzes</a></li>
+            <li><a href="#">W3.JS Quizzes</a></li>
+        </ul>
+    </div>
+    <div class="itemts">
+        <h3 class="sidehead">Certificates</h3>
+        <ul>
+            <li><a href="#">XML Certificates</a></li>
+            <li><a href="#">XML AJAX Certificates</a></li>
+            <li><a href="#">XML DOM Certificates</a></li>
+            <li><a href="#">XML DTD Certificates</a></li>
+            <li><a href="#">XML Schema Certificates</a></li>
+            <li><a href="#">XSLT Certificates</a></li>
+            <li><a href="#">XPath Certificates</a></li>
+            <li><a href="#">XQuery Certificates</a></li>
+        </ul>
+    </div>
+</div>
+<div class="footer boxContainer">
+    <div class="fbuttons1">
+    <a href="#">WEB CERTIFICATES</a>
+    <a href="#">QUIZZES</a>
+    <a href="#">EXERCISES</a>
+    </div>
+    <div class="fbuttons2">
+        <a href="#">FORUM</a>
+        <a href="" aria-disabled="true"><b>|</b></a>
+        <a href="#">ABOUT</a>
+    </div>
+    <p class="texts">
+        W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of
+        all content. While using this site, you agree to have read and accepted our <a href="#">terms of use</a>, <a href="#">cookie and privacy policy</a>.<br>
+        <a href="#">Copyright 1999-2020</a> by Refsnes Data. All Rights Reserved.<br><br>
+    </p>
+    <a href="#"><i class="fa fa-thumbs-o-up likeButtun" style="font-size: 40px"></i></a><br>
+    <a href="#" class="w3shop">W3SCHOOLS SHOP</a>
+</div>
+<nav class="sideBar">
+<h3 class="sidehead">HTML and CSS</h3>
+    <ul>
+        <li><a href="#">Learn HTML</a></li>
+        <li><a href="#">Learn CSS</a></li>
+        <li><a href="#">Learn Bootstrap</a></li>
+        <li><a href="#">Learn W3.CSS</a></li>
+        <li><a href="#">Learn Colors</a></li>
+        <li><a href="#">Learn Icons</a></li>
+        <li><a href="#">Learn Graphics</a></li>
+        <li><a href="#">Learn How To</a></li>
+        <li><a href="#">Learn Sass</a></li>
+    </ul>
+    <h3 class="sidehead">JavaScript</h3>
+    <ul>
+        <li><a href="#">Learn JavaScript</a></li>
+        <li><a href="#">Learn jQuery</a></li>
+        <li><a href="#">Learn React</a></li>
+        <li><a href="#">Learn AngularJS</a></li>
+        <li><a href="#">Learn JSON</a></li>
+        <li><a href="#">Learn AJAX</a></li>
+        <li><a href="#">Learn AppML</a></li>
+        <li><a href="#">Learn W3.JS</a></li>
+    </ul>
+    <h3 class="sidehead">Server Side</h3>
+    <ul>
+        <li><a href="#">Learn SQL</a></li>
+        <li><a href="#">Learn PHP</a></li>
+        <li><a href="#">Learn ASP</a></li>
+        <li><a href="#">Learn Node.js</a></li>
+        <li><a href="#">Learn Raspberry Pi</a></li>
+    </ul>
+    <h3 class="sidehead">Programming</h3>
+    <ul>
+        <li><a href="#">Learn Python</a></li>
+        <li><a href="#">Learn Java</a></li>
+        <li><a href="#">Learn C++</a></li>
+        <li><a href="#">Learn C#</a></li>
+        <li><a href="#">Learn Machine Learning</a></li>
+    </ul>
+    <h3 class="sidehead">Web Building</h3>
+    <ul>
+        <li><a href="#">Web Templates</a></li>
+        <li><a href="#">Web Statistics</a></li>
+        <li><a href="#">Web Certificates</a></li>
+        <li><a href="#">Web Editor</a></li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Test Your Typing Speed</a></li>
+    </ul>
+    <h3 class="sidehead">XML Tutorials</h3>
+    <ul>
+        <li><a href="#">Learn XML</a></li>
+        <li><a href="#">Learn XML AJAX</a></li>
+        <li><a href="#">Learn XML DOM</a></li>
+        <li><a href="#">Learn XML DTD</a></li>
+        <li><a href="#">Learn XML Schema</a></li>
+        <li><a href="#">Learn XSLT</a></li>
+        <li><a href="#">Learn XPath</a></li>
+        <li><a href="#">Learn XQuery</a></li>
+    </ul>
+    <h3 class="sidehead">HTML and CSS</h3>
+    <ul>
+        <li><a href="#">HTML Reference</a></li>
+        <li><a href="#">CSS Reference</a></li>
+        <li><a href="#">JS Reference</a></li>
+        <li><a href="#">SQL Reference</a></li>
+        <li><a href="#">PHP Reference</a></li>
+        <li><a href="#">jQuery Reference</a></li>
+        <li><a href="#">Python Reference</a></li>
+        <li><a href="#">Bootstrap 3 Reference</a></li>
+        <li><a href="#">Bootstrap 4 Reference</a></li>
+        <li><a href="#">W3.CSS Reference</a></li>
+        <li><a href="#">Java Reference</a></li>
+        <li><a href="#">Angular Reference</a></li>
+        <li><a href="#">Sass Reference</a></li>
+        <li><a href="#">UTF-8 Reference</a></li>
+    </ul>
+    <h3 class="sidehead">Exercises</h3>
+    <ul>
+        <li><a href="#">HTML Exercises</a></li>
+        <li><a href="#">CSS Exercises</a></li>
+        <li><a href="#">JavaScript Exercises</a></li>
+        <li><a href="#">SQL Exercises</a></li>
+        <li><a href="#">PHP Exercises</a></li>
+        <li><a href="#">Python Exercises</a></li>
+        <li><a href="#">Java Exercises</a></li>
+        <li><a href="#">C++ Exercises</a></li>
+        <li><a href="#">C# Exercises</a></li>
+        <li><a href="#">Bootstrap Exercises</a></li>
+    </ul>
+</nav>
+</body>
+</html>
